@@ -1,4 +1,7 @@
 # Initialize Git
+1. Create Your Project's Folder
+2. Open Git
+3. Open Your Folder @cd <Path To Your Folder>
 git init
 
 # Check Branches
@@ -12,13 +15,16 @@ git checkout <Branch Name>
 
 # Prep File(s) For Commit or Tracking
 git add <File Name> @Single File
-git add -A @All Files In The Folder
+git add -A @Multiple Files
 
-# Commit Files or Save Changes
-git commit -m <"Your Comment">
+# Commit File(s) or Save Changes
+git commit <File Name> -m <"Your Comment"> @Single File
+git commit -m <"Your Comment"> @Multiple Files
 
-# Undo commits
-1. git log @View Commits
+# View commits
+git log @View Commits
+
+# Undo Commits
 git checkout <hash>
 
 # Push Files To GitHub
