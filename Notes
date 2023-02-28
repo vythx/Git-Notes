@@ -1,0 +1,33 @@
+# Initialize Git
+git init
+
+# Check Branches
+git branch
+
+# Create A New Branch
+git checkout <New Branch Name>
+
+# Switch To A Branch
+git checkout <Branch Name>
+
+# Prep File(s) For Commit or Tracking
+git add <File Name> @Single File
+git add -A @All Files In The Folder
+
+# Commit Files or Save Changes
+git commit -m <"Your Comment">
+
+# Undo commits
+1. git log @View Commits
+git checkout <hash>
+
+# Push Files To GitHub
+1. Create A GitHub Account or Open Your Existing Acount
+2. Create A Repository
+
+git remote add origin https://github.com/<Your User Name>/<Your Repository Name>.git
+git branch -M main
+git push -u origin main
+
+# Pull files from Github
+git push -u origin main
